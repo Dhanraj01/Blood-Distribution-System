@@ -1,0 +1,208 @@
+body {
+	font-family: "Lato", sans-serif;
+ }
+  div{
+	display: inline-block;
+  }
+  .sidebar {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+  }
+  
+  .sidebar a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+  }
+  #userlogo{
+	width: 8%;
+	padding-left: 20px;
+	padding-right: 0px
+  }
+  .sidebar a:hover {
+	color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+  }
+  
+  .openbtn {
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #111;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+  }
+  
+  .openbtn:hover {
+	background-color: #444;
+  }
+  
+  #main {
+	transition: margin-left .5s;
+	padding: 16px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+	.sidebar {padding-top: 15px;}
+	.sidebar a {font-size: 18px;}
+  }
+table{
+  text-align: center;
+  width: 100%;
+}
+.icon{
+	/* background-color: aqua; */
+	/* position:relative; */
+	/* top: 15px;
+	right: 170px; */
+	scale: 75%;
+	margin-right:20px ;
+
+  }
+h1{
+	position: absolute;
+	top: 8px;
+	right: 40px;
+
+}
+#main{
+	/* background-color:yellow; */
+	width: 100vw;
+}
+#organization h1{
+	/* background-color:pink; */
+	width: 15vw;
+	border: 50px;
+  /* white-space: nowrap; */
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
+}
+#usericon{
+	/* background-color: red; */
+	/* position: relative; */
+	width: fit-content;
+}
+
+.navbar{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 101%	;
+}
+ .logo-header{
+	width: 50%;
+ }
+.main-section-header{
+	display: flex;
+	align-items: center;
+	margin-left: 1rem;
+	width: 100vw;
+}
+
+main{
+	display: flex;
+	align-items: center;
+}
+.other-content{
+	display: flex;
+	align-items: center;
+}
+.org-name{
+	width: 3rem;
+}
+.bloodgroups{
+	background-color: #95A5A6;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+	
+
+	
+}
+
+.col{
+	flex-basis: 10%;
+}
+tr,td{
+	padding: 50px;
+	
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+  }
+th{
+	padding:25px
+}
+table{
+	background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+
+/* CSS */
+button {
+  /* background-color: #fff; */
+  border: 2px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 10px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+  float:inline-start;
+	padding: 4px;
+
+}
+
+.button-13:hover {
+  background-color: rgb(239, 245, 246);
+}
+
+.button-13:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+.main-section-header{
+	 background-color: #fff;
+     padding-block: 1em;
+	 position:relative;
+   
+    height: 30px;
+    line-height: 20px;
+    width: 100%;
+    background-color: rgb(54 27 137 / 10%);
+}
